@@ -1,0 +1,128 @@
+/* order of css tags? */ 
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&display=swap");
+
+body {
+  font-family: "Agu Display", serif;
+  background-color: #c0c0c0;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+h1 {
+  font-family: "Agu Display", serif;
+  background-color: #FFB6C1;
+  margin: 20px;
+  padding: 20px;
+   border: solid 2px black; 
+}
+
+h4 {
+  font-family: "Agu Display", serif;
+  background-color: #FFB6C1;
+  margin: 20px;
+  padding: 10px;
+   border: solid 2px black; 
+}
+
+#bedroom {
+  height: 800px; 
+  width: 800px; 
+  background-color: #550000; 
+  margin: auto; 
+  top: 300px;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath fill-rule="evenodd" d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/%3E%3C/g%3E%3C/svg%3E');
+}
+
+.beds {
+  height: 100px; 
+  width: 600px; 
+  background-color: blue; 
+  position: relative;  
+  left: 125px; 
+}
+
+.desks {
+  height: 100px; 
+  width: 600px; 
+  background-color: blue; 
+  position: relative;  
+  left: 125px; 
+}
+
+
+#bedOne {
+ height: 150px;
+  width: 150px; 
+  border: solid 2px black; 
+/*   margin: 5% auto;  */
+  background-color: white; 
+  position: relative; 
+  top: 0px; 
+  left: 0px; 
+  rotate: -90deg;
+  text-align: center;
+}
+
+#bedTwo {
+height: 150px;
+  width: 150px; 
+  border: solid 2px black; 
+/*   margin: 5% auto;  */
+  background-color: white; 
+  position: relative; 
+  top: 500px; 
+  left: 650px; 
+  rotate: -90deg;
+  text-align: center;
+}
+
+#myDesk {
+height: 50px;
+  width: 75px; 
+  border: solid 2px black; 
+/*   margin: 5% auto;  */
+  background-color: brown; 
+  position: relative; 
+  top: -300px; 
+  left: 150px; 
+  text-align: center;
+}
+
+#otherDesk {
+height: 50px;
+  width: 75px; 
+  border: solid 2px black; 
+/*   margin: 5% auto;  */
+  background-color: brown; 
+  position: relative; 
+  top: 400px; 
+  left: 575px; 
+  rotate: -180deg;
+  text-align: center; 
+  
+}
+
+#door {
+height: 50px;
+  width: 50px; 
+  border: solid 2px black; 
+/*   margin: 5% auto;  */
+  background-color: blue; 
+  position: relative; 
+  top: 350px; 
+  left: 0px; 
+  rotate: -90deg;
+  text-align: center;
+}
+
+#Funny-seal {
+  rotate: -180deg;
+}
+
+.pillow {
+  height: 25px; 
+  width: 25px; 
+  background-color: purple; ;
+}
