@@ -1,4 +1,4 @@
-  for(i = 0; i <2; i++)
+for(i = 0; i <2; i++)
     {
       //do stuff
       console.log(i); 
